@@ -1,7 +1,7 @@
 {
   "name": "mixid",
   "version": "1.0.0",
-  "description": "A simple random ID/Token generator based on inputed data",
+  "description": "A simple random ID generator based on inputed data",
   "license": "MIT",
   "author": "IEatUranium238",
   "type": "module",
