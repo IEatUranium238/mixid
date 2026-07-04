@@ -1,9 +1,10 @@
+![](https://img.shields.io/npm/l/%40ieaturanium238%2Fmixid) ![](https://img.shields.io/npm/v/%40ieaturanium238%2Fmixid) ![](https://img.shields.io/npm/unpacked-size/%40ieaturanium238%2Fmixid)
 # Mixid
 **Mixid** (Mix + ID) - Is a simple to use, lightweight Javascript/Typescript library for generating ID strings 
 with blended in data and optionally encrypting it.
 ## Features
 - Simple to use
-- Lightweight (Less than 2Kb)
+- Lightweight
 - Easy to configure
 - Optional SHA-256 encryption via Web Crypto API
 ## Installation
