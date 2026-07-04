@@ -11,7 +11,7 @@ interface Settings {
 * @param settings Mixid settings
 * @returns Mixid string
 */
-export async function generateMixid(
+export default async function generateMixid(
   data: any[],
   settings?: Settings,
 ): Promise<string> {
