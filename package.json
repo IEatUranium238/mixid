@@ -12,7 +12,7 @@
     "/build"
   ],
   "scripts": {
-    "tsc": "tsc",
+    "tsc": "npx tsc",
     "build:esm": "esbuild src/mixid.ts --bundle --minify --outfile=build/mixid.js --format=esm --platform=neutral --target=esnext --keep-names",
     "build": "npm run tsc && npm run build:esm",
     "test": "vitest --coverage",
