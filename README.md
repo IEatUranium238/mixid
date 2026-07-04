@@ -14,7 +14,7 @@ npm i @ieaturanium238/mixid
 *or other npm based package managers*
 ## Usage
 ```Typescript
-import generateMixid from "mixid";
+import generateMixid from "@ieaturanium238/mixid";
 const id = await generateMixid(["product", "apple"]);
 console.log(id);
 ```
