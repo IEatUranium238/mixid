@@ -8,7 +8,7 @@ with blended in data and optionally encrypting it.
 - Optional SHA-256 encryption via Web Crypto API
 ## Installation
 ```Bash
-npm i mixid
+npm i @ieaturanium238/mixid
 ```
 *or other npm based package managers*
 ## Usage
