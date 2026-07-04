@@ -1,0 +1,19 @@
+{
+  "name": "mixid",
+  "version": "1.0.0",
+  "description": "A simple random ID/Token generator based on inputed data",
+  "license": "MIT",
+  "author": "IEatUranium238",
+  "type": "module",
+  "main": "mixid.ts",
+  "scripts": {
+    "tsc": "npx tsc --stripInternal",
+    "esbuild": "npx esbuild src/mixid.ts --bundle --minify --outfile=build/mixid.js --target=esnext",
+    "build": "npm run tsc && npm run esbuild"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "esbuild": "^0.28.1",
+    "typescript": "^6.0.3"
+  }
+}
