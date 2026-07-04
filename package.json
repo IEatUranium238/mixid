@@ -1,5 +1,5 @@
 {
-  "name": "mixid",
+  "name": "@ieaturanium238/mixid",
   "version": "1.0.0",
   "description": "A simple random ID generator based on inputed data",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "repository": "https://github.com/IEatUranium238/mixid",
   "readme": "https://github.com/IEatUranium238/mixid/blob/main/README.md",
   "type": "module",
-  "main": "mixid.ts",
+  "main": "./build/mixid.js",
   "files": [
     "/build"
   ],
